@@ -53,9 +53,3 @@ def arithmetic_arranger(problems, *args):
     return arranged_problems
    
 
-print(arithmetic_arranger(["3 + 855", "3801 - 2", "45 + 43", "123 + 49"]))
-
-
-expected = "    3      3801      45      123\n+ 855    -    2    + 43    +  49\n-----    ------    ----    -----"
-print(expected)
-print(arithmetic_arranger(["3 + 855", "3801 - 2", "45 + 43", "123 + 49"])==expected)
